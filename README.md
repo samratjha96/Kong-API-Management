@@ -18,3 +18,6 @@
     - You should see a `{"message":"No API key found in request"}` resoponse
 3. Now let's try invalid credentials: `curl -iL -X GET  --url http://localhost:8000/joke   --header 'Host: joke.com' --header "apikey: invalid_key"`
     - You should see a `{"message":"Invalid authentication credentials"}` response
+
+## References
+[Original article](https://medium.com/smileinnovation/kong-manage-your-flask-apis-d58ff4ea808d)
